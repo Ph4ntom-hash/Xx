@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFC Top 10 Webpage</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, Red, Black, Blue); /* Vibrant background gradient */
+            background-size: 300% 300%;
+            animation: gradientAnimation 15s ease infinite;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        header {
+            text-align: center;
+            padding: 2em 0;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2em;
+        }
+
+        .content-box {
+            background: rgba(255, 255, 255, 0.8); /* Semi-transparent white box */
+            border-radius: 15px;
+            padding: 2em;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 800px; /* Limit content width */
+        }
+
+        .content-box h2 {
+            color: #333;
+            margin-bottom: 1em;
+        }
+
+        .content-box p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 1em 2em;
+            background: linear-gradient(to right, Red, Blue); /* Colorful button gradient */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 30px;
+            margin-top: 2em;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            background: linear-gradient(to right, #2575fc, #6a11cb); /*reverse gradient on hover*/
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            color: #fff;
+            background: rgba(0, 0, 0, 0.3); /* Darker semi-transparent footer */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to my UFC Top 10 Webpage.</h1>
+        <p>Email=(lukeporras3@gmail.com)</p>
+        <p>Phone no=(09670920701)</p>
+    </header>
+
+    <main>
+        <div class="content-box">
+            <h2>Press The Button to Access my Top 10 UFC Fighters Of All Time</p>
+            <a href="webpage.html" class="cta-button">UFC</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>Thank you for Checking out this page.</p>
+    </footer>
+
+</body>
+</html>
